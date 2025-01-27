@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ContatoService {
 
-  private baseUrl = 'http://localhost:8080/contato';
+  private baseUrl = 'https://agendatelefonica3-production.up.railway.app/contato';
 
   constructor(private http: HttpClient) { }
 
